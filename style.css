@@ -29,6 +29,12 @@
     float: left;
 }
 
+#col-2 {
+    width: 48%;
+    display: inline-block;
+    float: left;
+}
+
 .nav-1 {
     font-size: smaller;
     text-decoration: none;
@@ -42,10 +48,9 @@ ul {
     list-style-type: none;
 }
 
-#col-2 {
-    width: 48%;
-    display: inline-block;
-    float: left;
+
+#col-3 {
+    width: 40%;
 }
 
 .nav-2 {
@@ -55,10 +60,6 @@ ul {
     padding: 8px;
     float: left;
     color: white;
-}
-
-#col-3 {
-    width: 40%;
 }
 
 .hero {
