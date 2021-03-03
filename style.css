@@ -6,7 +6,7 @@
 }
 
 .container {
-    height: 500px;
+    height: 400px;
     width: 100vw;
     border: 1px solid gray;
     position: relative;
@@ -15,6 +15,7 @@
 
 #cblue {
     background-color: midnightblue;
+    height: 500px;
 }
 
 .header {
@@ -23,12 +24,16 @@
 }
 
 #col-1 {
-    width: 15%;
+    width: 12%;
     display: inline-block;
     float: left;
 }
 
 .nav-1 {
+    font-size: smaller;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
     float: left;
     color: white;
 }
@@ -38,9 +43,18 @@ ul {
 }
 
 #col-2 {
-    width: 45%;
+    width: 48%;
     display: inline-block;
     float: left;
+}
+
+.nav-2 {
+    font-size: smaller;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+    float: left;
+    color: white;
 }
 
 #col-3 {
