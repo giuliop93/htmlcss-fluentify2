@@ -19,7 +19,7 @@
 }
 
 .header {
-    width: 1020px;
+    width: 1080px;
     margin: auto;
 }
 
@@ -30,6 +30,8 @@
 }
 
 #col-2 {
+    margin-left: 20px;
+    margin-right: -20px;
     width: 48%;
     display: inline-block;
     float: left;
@@ -54,12 +56,45 @@ ul {
 }
 
 .nav-2 {
+    margin-top: 0.1%;
     font-size: smaller;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 8px;
+    padding: 7px;
     float: left;
     color: white;
+}
+#button-1 {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#button-2 {
+    background-color: yellowgreen;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#button-3 {
+    /*top: 30%;
+    left: 15%;
+    position: absolute;*/
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    margin-left: 5px;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 15%;
 }
 
 .hero {
