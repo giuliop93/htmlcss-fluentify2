@@ -3,3 +3,28 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+.container {
+    height: 500px;
+    width: 100vw;
+    border: 1px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero {
+    width: 1020px;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+
+.wrapper {
+    height: 100px;
+    width: 100vw;
+    border: 1px solid gray;
+}
+
+#wgray {
+    background-color: lightgray;
+}
