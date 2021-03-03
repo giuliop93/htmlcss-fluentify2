@@ -12,6 +12,22 @@
     overflow: hidden;
 }
 
+#cblue {
+    background-color: midnightblue;
+}
+
+.col-1 {
+    width: 15%;
+}
+
+.col-2 {
+    width: 45%;
+}
+
+.col-3 {
+    width: 40%;
+}
+
 .hero {
     width: 1020px;
     position: absolute;
@@ -22,9 +38,15 @@
 .wrapper {
     height: 100px;
     width: 100vw;
+    background-color: lightgray;
     border: 1px solid gray;
 }
 
-#wgray {
-    background-color: lightgray;
+h5 {
+    margin-top: 2%;
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
