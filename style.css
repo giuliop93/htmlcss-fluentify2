@@ -119,3 +119,18 @@ h5 {
 p {
     text-align: center;
 }
+
+.row-1 {
+    height: 200px;
+    width: 1080px;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.row-1 > *img {
+    width: 32%;
+}
+
+.col-4 {
+    float: left;
+}
