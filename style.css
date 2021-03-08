@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.hero {
     height: 400px;
     width: 100vw;
     border: 1px solid gray;
@@ -97,7 +97,7 @@ ul {
     left: 15%;
 }
 
-.hero {
+.img-hero {
     width: 1020px;
     position: absolute;
     top: 14%;
@@ -113,10 +113,29 @@ ul {
 }
 
 .wrapper {
-    height: 100px;
-    width: 100vw;
+    width: 1080px;
+    margin: auto;
+    border-top: solid 1px;
+}
+
+.col-50 {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.text-4 {
+    margin-top: 2%;
+    text-align: left;
+    color: gray;
+}
+
+.wrapper-lg {
     background-color: lightgray;
     border: 1px solid gray;
+}
+
+#eccezione {
+    width: 200px;
 }
 
 .text-center {
@@ -126,6 +145,10 @@ ul {
 
 p {
     text-align: center;
+}
+
+.topbot {
+    margin: 10% 0;
 }
 
 .row-1 {
