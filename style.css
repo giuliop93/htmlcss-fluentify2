@@ -100,8 +100,16 @@ ul {
 .hero {
     width: 1020px;
     position: absolute;
-    top: 15%;
+    top: 14%;
     left: 38%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.margin-l {
+    margin-left: 5%;
 }
 
 .wrapper {
@@ -111,7 +119,7 @@ ul {
     border: 1px solid gray;
 }
 
-h5 {
+.text-center {
     margin-top: 2%;
     text-align: center;
 }
@@ -121,16 +129,32 @@ p {
 }
 
 .row-1 {
-    height: 200px;
     width: 1080px;
     margin: auto;
-    border: 1px solid gray;
+}
+
+.widhtfix {
+    width: 150px;
 }
 
 .row-1 > *img {
     width: 32%;
 }
 
-.col-4 {
+.float-l {
     float: left;
+}
+
+.greentitle {
+    color: rgb(148, 219, 77);
+}
+
+.clearfix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.mountain {
+    width: 300px;
 }
